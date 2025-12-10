@@ -1,0 +1,13 @@
+{
+  "title": "curl -> PowerShell",
+  "pasteCurl": "粘贴 curl 命令",
+  "convert": "转换",
+  "copy": "复制",
+  "run": "运行测试",
+  "outputTitle": "生成的 PowerShell 语句",
+  "resultTitle": "运行结果",
+  "convertFail": "转换失败: ",
+  "runDone": "已执行，输出在控制台或上方文本框末尾显示",
+  "runFail": "运行失败: ",
+  "psQueryDefault": "在这里填写测试问题"
+}

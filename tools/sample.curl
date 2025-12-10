@@ -1,0 +1,14 @@
+curl --request POST \
+      --url `http://rag.ncc-tech.com/api/v1/chats_openai/4497383acf2211f08bdf0242ac120007/chat/completions`  \
+      --header 'Content-Type: application/json' \
+      --header 'Authorization: Bearer ragflow-VhZjUwOGZjMDk0MTExZjA5N2MyZmFjYj' \
+      --data '{
+         "model": "model",
+         "messages": [
+            {"role": "user",
+             "content": "{{query}}"
+            }
+         ],
+         "stream": false
+       }'
+

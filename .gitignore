@@ -1,0 +1,14 @@
+# PowerShell
+*.swp
+*~
+*.tmp
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+.idea/
